@@ -6165,6 +6165,34 @@ header .bg-header {
   width: 100%;
 }
 
+.corps {
+  position: relative;
+  background-color: #aaaaaa;
+  text-align: center;
+}
+
+.corps p {
+  margin: 0;
+  width: 600px;
+  margin-left: 27%;
+  color: #535353;
+  padding: 20px;
+}
+
+.corps p #marker {
+  display: inline;
+  background: #708aff;
+  color: white;
+}
+
+.corps p #facere {
+  font-weight: bold;
+}
+
+.corps h4 {
+  color: #535353;
+}
+
 body {
   margin: 0;
 }

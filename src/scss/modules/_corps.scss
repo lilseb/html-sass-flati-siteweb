@@ -1,0 +1,30 @@
+.corps{
+    position: relative;
+    background-color: rgb(170, 170, 170);
+    // margin-top: 0%;
+    text-align: center;
+
+    p{
+        margin: 0;
+        width: 600px;
+        // text-align: center;
+        margin-left: 27%;
+        color: rgb(83, 83, 83);
+        padding: 20px;
+
+        #marker{
+            display: inline; background: rgb(112, 138, 255);
+            color: white;
+            
+        }
+        #facere{
+            font-weight: bold;
+        }
+
+
+    }
+
+    h4{
+        color: rgb(83, 83, 83);
+    }
+}
