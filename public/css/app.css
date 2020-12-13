@@ -6433,6 +6433,22 @@ header .bg-header {
   padding-bottom: 20px;
 }
 
+.lightblue {
+  background-color: #006cfa;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.lightblue h3 {
+  padding-top: 20px;
+  letter-spacing: 5px;
+}
+
+.lightblue .social-media {
+  letter-spacing: 5px;
+}
+
 body {
   margin: 0;
 }
