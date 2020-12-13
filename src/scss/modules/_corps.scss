@@ -19,12 +19,188 @@
         }
         #facere{
             font-weight: bold;
+            margin: 0%;
         }
 
 
     }
 
-    h4{
+    h3{
         color: rgb(83, 83, 83);
     }
+
+    
+}
+
+.midden{
+    width: 100%;
+    height: 1000px;
+    background-color: lightgray;
+    margin: 0%;
+   
+
+    // cards
+    .cards{
+        display: flex;
+        margin-left: 160px;
+        padding-top: 20px;
+        
+
+        .card1{
+            width: 250px;
+            background-color: rgb(180, 180, 180);
+            text-align: center;
+            border-radius: 3px;
+            margin: 10px;
+            
+            // icone
+            .fas{
+                border: 1px black solid;
+                border-radius: 50%;
+                background-color: #fff;
+                font-size: 20px;
+                padding: 10px;
+                margin-top: 3px;
+                // margin-left: 44%;
+            }
+        
+            .text-h3{
+                text-align: center;
+            }
+        
+            .card-text-blue{
+                color: rgb(57, 145, 204);
+            }
+        
+            .card-text{
+                width: 200px;
+                padding-bottom: 20px;
+                margin-left: 25px;
+            }
+    
+        }
+        // card2
+        .card2{
+            width: 250px;
+            background-color: rgb(180, 180, 180);
+            text-align: center;
+            border-radius: 3px;
+            margin: 10px;
+            // icone
+            .fas{
+                border: 1px black solid;
+                border-radius: 50%;
+                background-color: #fff;
+                font-size: 20px;
+                padding: 10px;
+                margin-top: 5px;
+                // margin-left: 44%;
+            }
+        
+            .text-h3{
+                text-align: center;
+            }
+        
+            .card-text-blue{
+                color: rgb(57, 145, 204);
+            }
+        
+            .card-text{
+                width: 200px;
+                padding-bottom: 20px;
+                margin-left: 25px;
+            }
+
+        }
+
+        // card3
+        .card3{
+            width: 250px;
+            background-color: rgb(180, 180, 180);
+            text-align: center;
+            border-radius: 3px;
+            margin: 10px;
+            // icone
+            .fas{
+                border: 1px black solid;
+                border-radius: 50%;
+                background-color: #fff;
+                font-size: 20px;
+                padding: 10px;
+                margin-top: 5px;
+                // margin-left: 44%;
+            }
+        
+            .text-h3{
+                text-align: center;
+            }
+        
+            .card-text-blue{
+                color: rgb(57, 145, 204);
+            }
+        
+            .card-text{
+                width: 200px;
+                padding-bottom: 20px;
+                margin-left: 25px;
+            }
+        }
+
+        // card4
+        .card4{
+            width: 250px;
+            background-color: rgb(180, 180, 180);
+            text-align: center;
+            border-radius: 3px;
+            margin: 10px;
+            // icone
+            .fas{
+                border: 1px black solid;
+                border-radius: 50%;
+                background-color: #fff;
+                font-size: 20px;
+                padding: 10px;
+                margin-top: 5px;
+                // margin-left: 44%;
+            }
+        
+            .text-h3{
+                text-align: center;
+            }
+        
+            .card-text-blue{
+                color: rgb(57, 145, 204);
+            }
+        
+            .card-text{
+                width: 200px;
+                padding-bottom: 20px;
+                margin-left: 25px;
+            }
+        }
+    }
+
+    .recent-work{
+        width: 400px;
+        margin-left: 165px;
+        margin-top: 100px;
+
+        .text-recent{
+            color: rgb(136, 136, 136);
+        }
+
+        .text-bold{
+            font-weight: bold;
+        }
+
+        button{
+            background-color: rgb(0, 102, 255);
+            padding: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 5px;
+            border: none;
+        }
+    }
+
 }
