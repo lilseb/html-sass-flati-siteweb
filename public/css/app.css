@@ -6161,6 +6161,10 @@ header nav ul li a {
   margin: 20px;
 }
 
+header .bg-header {
+  width: 100%;
+}
+
 body {
   margin: 0;
 }
