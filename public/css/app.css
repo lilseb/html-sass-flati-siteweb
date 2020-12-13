@@ -6196,7 +6196,6 @@ header .bg-header {
 
 .midden {
   width: 100%;
-  height: 1000px;
   background-color: lightgray;
   margin: 0%;
 }
@@ -6331,27 +6330,107 @@ header .bg-header {
   margin-left: 25px;
 }
 
-.midden .recent-work {
-  width: 400px;
+.midden .end-midden {
+  display: flex;
+  padding-bottom: 7git0px;
+}
+
+.midden .end-midden .recent-work {
+  width: 300px;
   margin-left: 165px;
   margin-top: 100px;
 }
 
-.midden .recent-work .text-recent {
+.midden .end-midden .recent-work .text-recent {
   color: #888888;
 }
 
-.midden .recent-work .text-bold {
+.midden .end-midden .recent-work .text-bold {
   font-weight: bold;
 }
 
-.midden .recent-work button {
+.midden .end-midden .recent-work button {
   background-color: #0066ff;
   padding: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 5px;
   border: none;
+}
+
+.midden .end-midden .cards-img {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 180px;
+}
+
+.midden .end-midden .cards-img .lips {
+  width: 200px;
+  text-align: center;
+  margin: 5px;
+}
+
+.midden .end-midden .cards-img .lips img {
+  width: 100%;
+}
+
+.midden .end-midden .cards-img .lips .text-3cards {
+  background-color: #38386b;
+  color: white;
+}
+
+.midden .end-midden .cards-img .lips .text-3cards .h3-cards-img {
+  margin: 0%;
+}
+
+.midden .end-midden .cards-img .lips .text-3cards p {
+  padding-bottom: 20px;
+}
+
+.midden .end-midden .cards-img .hand {
+  width: 200px;
+  text-align: center;
+  margin: 5px;
+}
+
+.midden .end-midden .cards-img .hand img {
+  width: 100%;
+}
+
+.midden .end-midden .cards-img .hand .text-3cards {
+  background-color: #38386b;
+  color: white;
+}
+
+.midden .end-midden .cards-img .hand .text-3cards .h3-cards-img {
+  margin: 0%;
+}
+
+.midden .end-midden .cards-img .hand .text-3cards p {
+  padding-bottom: 20px;
+}
+
+.midden .end-midden .cards-img .retro {
+  width: 200px;
+  text-align: center;
+  margin: 5px;
+}
+
+.midden .end-midden .cards-img .retro img {
+  width: 100%;
+}
+
+.midden .end-midden .cards-img .retro .text-3cards {
+  background-color: #38386b;
+  color: white;
+}
+
+.midden .end-midden .cards-img .retro .text-3cards .h3-cards-img {
+  margin: 0%;
+}
+
+.midden .end-midden .cards-img .retro .text-3cards p {
+  padding-bottom: 20px;
 }
 
 body {

@@ -34,7 +34,7 @@
 
 .midden{
     width: 100%;
-    height: 1000px;
+    
     background-color: lightgray;
     margin: 0%;
    
@@ -179,28 +179,117 @@
             }
         }
     }
+    .end-midden{
+        display: flex;
+        padding-bottom: 7git0px;
 
-    .recent-work{
-        width: 400px;
-        margin-left: 165px;
-        margin-top: 100px;
 
-        .text-recent{
-            color: rgb(136, 136, 136);
+        .recent-work{
+            width: 300px;
+            margin-left: 165px;
+            margin-top: 100px;
+    
+            .text-recent{
+                color: rgb(136, 136, 136);
+            }
+    
+            .text-bold{
+                font-weight: bold;
+            }
+    
+            button{
+                background-color: rgb(0, 102, 255);
+                padding: 10px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 5px;
+                border: none;
+            }
         }
 
-        .text-bold{
-            font-weight: bold;
+        .cards-img{
+            display: flex;
+            margin-left: 70px;
+            margin-top: 180px;
+
+            .lips{
+                width: 200px;
+                text-align: center;
+                margin: 5px;
+
+                img{
+                    width: 100%;
+                }
+
+                .text-3cards{
+                    background-color: rgb(56, 56, 107);
+                    color: white;
+
+                    .h3-cards-img{
+                        margin: 0%;
+                    }
+
+                    p{
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+
+            .hand{
+                width: 200px;
+                text-align: center;
+                margin: 5px;
+                
+
+                img{
+                    width: 100%;
+                }
+
+                .text-3cards{
+                    background-color: rgb(56, 56, 107);
+                    color: white;
+
+                    .h3-cards-img{
+                        margin: 0%;
+                    }
+
+                    p{
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+
+            .retro{
+                width: 200px;
+                text-align: center;
+                margin: 5px;
+                
+
+                img{
+                    width: 100%;
+                }
+
+                .text-3cards{
+                    background-color: rgb(56, 56, 107);
+                    color: white;
+
+                    .h3-cards-img{
+                        margin: 0%;
+                    }
+
+                    p{
+                        padding-bottom: 20px;
+                    }
+                }
+
+            }
+
+
         }
 
-        button{
-            background-color: rgb(0, 102, 255);
-            padding: 10px;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            border-radius: 5px;
-            border: none;
-        }
+
     }
+
+
 
 }
